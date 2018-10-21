@@ -11,24 +11,25 @@
         android:layout_height="34dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="173dp"
         android:visibility="visible" />
 
     <Spinner
         android:id="@+id/spinner3"
         android:layout_width="272dp"
         android:layout_height="34dp"
+        android:layout_above="@+id/spinner4"
         android:layout_alignParentEnd="true"
-        android:layout_below="@+id/textView"
+        android:layout_marginBottom="-160dp"
         android:visibility="visible" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="57dp"
-        android:layout_height="37dp"
+        android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="67dp"
+        android:layout_marginTop="82dp"
         android:text="Date"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="17sp"
@@ -39,8 +40,7 @@
         android:layout_width="273dp"
         android:layout_height="34dp"
         android:layout_alignParentEnd="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="61dp"
+        android:layout_alignTop="@+id/textView"
         android:visibility="visible" />
 
     <TextView
@@ -49,7 +49,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="227dp"
         android:text="Weather"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="17sp"
@@ -67,9 +67,9 @@
         android:id="@+id/textView3"
         android:layout_width="102dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="240dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="280dp"
         android:text="Sampling Trail"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="17sp"
@@ -98,41 +98,6 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="51dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="300dp"
-        android:text="Plant"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="17sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="93dp"
-        android:layout_height="45dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="335dp"
-        android:text="Distribution Code"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="17sp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="390dp"
-        android:text="Density Code"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="17sp"
-        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView8"
@@ -140,7 +105,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="350dp"
         android:text="GPS"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="17sp"
@@ -149,9 +114,11 @@
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/spinner5"
-        android:layout_below="@+id/editText"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/editText"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="160dp"
         android:text="Start Point"
         android:textColor="@android:color/holo_green_dark"
         android:textStyle="bold" />
@@ -160,8 +127,8 @@
         android:id="@+id/editText"
         android:layout_width="117dp"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView8"
-        android:layout_alignStart="@+id/spinner5"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignStart="@+id/spinner4"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -169,49 +136,31 @@
         android:id="@+id/editText3"
         android:layout_width="114dp"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView8"
-        android:layout_alignEnd="@+id/button2"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignParentEnd="true"
         android:ems="10"
         android:inputType="textPersonName" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="106dp"
+        android:layout_width="112dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText"
-        android:layout_toEndOf="@+id/textView4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginTop="0dp"
         android:text="End Point"
         android:textColor="@android:color/holo_green_dark"
         android:textStyle="bold" />
 
-    <Spinner
-        android:id="@+id/spinner2"
-        android:layout_width="272dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView5" />
-
-    <Spinner
-        android:id="@+id/spinner6"
-        android:layout_width="272dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView6" />
-
-    <Spinner
-        android:id="@+id/spinner7"
-        android:layout_width="273dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView7" />
 
     <Button
         android:id="@+id/Enter"
         android:layout_width="179dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/textView4"
-        android:layout_marginTop="520dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="50dp"
         android:text="Enter"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="18sp"

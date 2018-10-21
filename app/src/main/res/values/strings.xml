@@ -57,6 +57,44 @@
         <item>2021</item>
         <item>2022</item>
         <item>2023</item>
-        <item>2014</item>
+        <item>2024</item>
     </string-array>
+
+    <string-array name="weather">
+        <item>sunny</item>
+        <item>Party Sunny</item>
+        <item>Cloudy</item>
+        <item>Overcast</item>
+        <item>Thunder Storm</item>
+        <item>Fog</item>
+        <item>Rain</item>
+        <item>Haivy Rain</item>
+        <item>Rain with Sun</item>
+    </string-array>
+
+    <string-array name="Distributioncode">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+
+    <string-array name="DestinyCode">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Dense</item>
+    </string-array>
+
+    <string-array name="plant">
+        <item>Ageratina Riparia</item>
+        <item>Aristea Ecklonii</item>
+        <item>Ulex Europeus</item>
+    </string-array>
+
 </resources>
