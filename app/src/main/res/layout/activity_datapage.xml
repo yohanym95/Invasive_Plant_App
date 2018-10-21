@@ -95,7 +95,6 @@
         android:layout_alignTop="@+id/textView9"
         android:layout_marginTop="40dp"
         android:layout_marginRight="300dp"
-        android:layout_centerVertical="true"
         android:text="Flowers"
         android:textColor="@android:color/holo_green_dark"
         android:textSize="17sp"
@@ -159,11 +158,48 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignEnd="@+id/textView4"
-        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/spinner12"
+        android:layout_marginRight="150dp"
+        android:layout_marginTop="50dp"
         android:text="Enter"
         android:textColor="@android:color/holo_green_dark"
         android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner8"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/textView10" />
+
+    <Spinner
+        android:id="@+id/spinner9"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView11" />
+
+    <Spinner
+        android:id="@+id/spinner10"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView12" />
+
+    <Spinner
+        android:id="@+id/spinner11"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView13" />
+
+    <Spinner
+        android:id="@+id/spinner12"
+        android:layout_width="281dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView15" />
 
 
 </RelativeLayout>

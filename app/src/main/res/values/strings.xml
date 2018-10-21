@@ -96,5 +96,31 @@
         <item>Aristea Ecklonii</item>
         <item>Ulex Europeus</item>
     </string-array>
+    <string-array name="flower">
+        <item>Yes</item>
+        <item>No</item>
+
+    </string-array>
+
+    <string-array name="Canopy">
+        <item>closed canopy</item>
+        <item>open canopy</item>
+    </string-array>
+    <string-array name="shaded">
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="SoilType">
+        <item>Coarse</item>
+        <item>Fine</item>
+        <item>Humus</item>
+    </string-array>'
+
+    <string-array name="GrowthStages">
+        <item>Seedings</item>
+        <item>Juvenilies</item>
+        <item>Adults</item>
+    </string-array>
 
 </resources>
