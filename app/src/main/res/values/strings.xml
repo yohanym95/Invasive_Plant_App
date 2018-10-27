@@ -115,7 +115,8 @@
         <item>Coarse</item>
         <item>Fine</item>
         <item>Humus</item>
-    </string-array>'
+    </string-array>
+    '
 
     <string-array name="GrowthStages">
         <item>Seedings</item>
