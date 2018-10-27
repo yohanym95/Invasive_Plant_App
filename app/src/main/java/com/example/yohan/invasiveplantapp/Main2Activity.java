@@ -19,7 +19,7 @@ public class Main2Activity extends AppCompatActivity {
         button1 = findViewById(R.id.angry_btn);
         button2 = findViewById(R.id.angry_btn2);
 
-
+         datacollection();
 
     }
 

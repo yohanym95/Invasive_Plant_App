@@ -17,8 +17,8 @@ public class databaseHelper extends SQLiteOpenHelper {
     public static final String Col_8 = "DestinyCode";
     public static final String Col_9 = "Flowers";
     public static final String Col_10 = "Canopy";
-    public static final String Col_11 = " Sheded";
-    public static final String Col_12= "SoilType";
+    public static final String Col_11 = "Sheded";
+    public static final String Col_12 = "SoilType";
     public static final String Col_13 ="GrowthStages";
 
 
@@ -29,12 +29,13 @@ public class databaseHelper extends SQLiteOpenHelper {
     }
 
     @Override
-    public void onCreate(SQLiteDatabase db) {
-
+    public void onCreate(SQLiteDatabase sqLiteDatabase) {
+        sqLiteDatabase.execSQL("Create Table "+Table_Name+" (Date VARCHAR(10), Weather VARCHAR(12), SamplingTrail VARCHAR(30), GPSStart VARCHAR(10), GPSEnd VARCHAR(10), plant VARCHAR(25),DistrubutionCode VARCHAR(8), DestinyCode VARCHAR(8),Flowers VARCHAR(5),Canopy VARCHAR(15),Sheded VARCHAR(10), SoilType VARCHAR(10), GrowthStages VARCHAR(10)  )");
     }
 
     @Override
-    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-
+    public void onUpgrade(SQLiteDatabase sqLiteDatabase, int oldVersion, int newVersion) {
+        sqLiteDatabase.execSQL("DROP TABLE IF EXISTS "+Table_Name);
+        onCreate(sqLiteDatabase);
     }
 }
