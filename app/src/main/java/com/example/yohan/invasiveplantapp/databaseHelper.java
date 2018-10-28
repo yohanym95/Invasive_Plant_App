@@ -26,6 +26,7 @@ public class databaseHelper extends SQLiteOpenHelper {
 
     public databaseHelper(Context context) {
         super(context, DB_NAME, null, 1 );
+        SQLiteDatabase sqLiteDatabase = this.getWritableDatabase();
     }
 
     @Override
