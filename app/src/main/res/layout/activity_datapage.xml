@@ -3,19 +3,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
     tools:context=".datapage">
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="122dp"
+        android:layout_width="167dp"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="21dp"
+        android:fontFamily="@font/cairo_bold"
         android:text="Invasive Plant"
         android:textAlignment="center"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <TextView
@@ -24,9 +26,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="9dp"
         android:layout_marginTop="85dp"
+        android:fontFamily="@font/cairo_semibold"
         android:text="Plant"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/colorAccent"
         android:textSize="17sp"
         android:textStyle="bold" />
 
@@ -36,9 +40,11 @@
         android:layout_height="45dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="124dp"
+        android:fontFamily="@font/cairo_semibold"
         android:text="Distribution Code"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/colorAccent"
         android:textSize="17sp"
         android:textStyle="bold" />
 
@@ -48,32 +54,34 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="188dp"
+        android:fontFamily="@font/cairo_semibold"
         android:text="Density Code"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/colorAccent"
         android:textSize="17sp"
         android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="272dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView5" />
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/textView5"
+        android:layout_alignParentEnd="true" />
 
     <Spinner
         android:id="@+id/spinner6"
         android:layout_width="272dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView6" />
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/textView6"
+        android:layout_alignParentEnd="true" />
 
     <Spinner
         android:id="@+id/spinner7"
-        android:layout_width="273dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView7" />
+        android:layout_width="272dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/textView7"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:id="@+id/textView9"
@@ -81,9 +89,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="228dp"
+        android:fontFamily="@font/cairo_bold"
         android:text="Remarks  :"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/colorAccent"
         android:textSize="17sp"
         android:textStyle="bold" />
 
@@ -91,12 +101,14 @@
         android:id="@+id/textView10"
         android:layout_width="72dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/textView9"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="304dp"
         android:layout_marginRight="300dp"
+        android:fontFamily="@font/cairo_semibold"
         android:text="Flowers"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/colorAccent"
         android:textSize="17sp"
         android:textStyle="bold" />
 
@@ -104,12 +116,14 @@
         android:id="@+id/textView11"
         android:layout_width="73dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/textView10"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="303dp"
         android:layout_marginRight="300dp"
+        android:fontFamily="@font/cairo_semibold"
         android:text="Canopy"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/colorAccent"
         android:textSize="17sp"
         android:textStyle="bold" />
 
@@ -117,40 +131,46 @@
         android:id="@+id/textView12"
         android:layout_width="72dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/textView11"
+        android:layout_alignParentEnd="true"
         android:layout_marginTop="40dp"
+        android:layout_marginEnd="304dp"
         android:layout_marginRight="300dp"
+        android:fontFamily="@font/cairo_semibold"
         android:text="Shaded"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/colorAccent"
         android:textSize="17sp"
         android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView13"
-        android:layout_width="74dp"
+        android:layout_width="77dp"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/textView12"
-        android:layout_marginTop="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="299dp"
         android:layout_marginRight="300dp"
+        android:fontFamily="@font/cairo_semibold"
         android:text="Soil Type"
-        android:textColor="@android:color/holo_green_dark"
+        android:textAlignment="textStart"
+        android:textColor="@color/colorAccent"
         android:textSize="17sp"
         android:textStyle="bold" />
 
 
-
     <TextView
         android:id="@+id/textView15"
-        android:layout_width="68dp"
-        android:layout_height="46dp"
-        android:layout_alignParentEnd="true"
+        android:layout_width="111dp"
+        android:layout_height="wrap_content"
         android:layout_alignTop="@+id/textView13"
-        android:layout_marginTop="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="265dp"
         android:layout_marginRight="300dp"
+        android:fontFamily="@font/cairo_semibold"
         android:text="Growth Stages"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/colorAccent"
         android:textSize="17sp"
         android:textStyle="bold" />
 
@@ -158,48 +178,50 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
         android:layout_alignTop="@id/spinner12"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="151dp"
         android:layout_marginRight="150dp"
-        android:layout_marginTop="50dp"
+        android:background="@color/colorPrimaryDark"
         android:text="Enter"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/colorAccent"
         android:textStyle="bold" />
 
     <Spinner
         android:id="@+id/spinner8"
         android:layout_width="281dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@id/textView10" />
+        android:layout_height="34dp"
+        android:layout_alignTop="@id/textView10"
+        android:layout_alignParentEnd="true" />
 
     <Spinner
         android:id="@+id/spinner9"
         android:layout_width="281dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView11" />
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/textView11"
+        android:layout_alignParentEnd="true" />
 
     <Spinner
         android:id="@+id/spinner10"
         android:layout_width="281dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView12" />
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/textView12"
+        android:layout_alignParentEnd="true" />
 
     <Spinner
         android:id="@+id/spinner11"
         android:layout_width="281dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView13" />
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/textView13"
+        android:layout_alignParentEnd="true" />
 
     <Spinner
         android:id="@+id/spinner12"
-        android:layout_width="281dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/textView15" />
+        android:layout_width="256dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/textView15"
+        android:layout_alignParentEnd="true" />
 
 
 </RelativeLayout>
