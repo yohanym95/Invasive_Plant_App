@@ -88,7 +88,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/colorAccent"
-        android:autofillHints="" tools:targetApi="o"/>
+        android:autofillHints="" />
 
     <TextView
         android:id="@+id/textView4"
@@ -141,7 +141,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/colorAccent"
-        android:autofillHints="" tools:targetApi="o"/>
+        android:autofillHints="" />
 
     <EditText
         android:id="@+id/editText3"
@@ -152,7 +152,7 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:textColor="@color/colorAccent"
-        android:autofillHints="" tools:targetApi="o"/>
+        android:autofillHints="" />
 
     <Button
         android:id="@+id/button2"
