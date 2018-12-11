@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:layout_width ="match_parent"
     tools:context=".datapage">
 
-    <TextView
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <TextView
         android:id="@+id/textView4"
         android:layout_width="167dp"
         android:layout_height="wrap_content"
@@ -20,7 +23,7 @@
         android:textSize="24sp"
         android:textStyle="bold" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView5"
         android:layout_width="51dp"
         android:layout_height="wrap_content"
@@ -34,7 +37,7 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView6"
         android:layout_width="93dp"
         android:layout_height="45dp"
@@ -48,7 +51,7 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,14 +65,14 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="272dp"
         android:layout_height="34dp"
         android:layout_alignTop="@+id/textView5"
         android:layout_alignParentEnd="true" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner6"
         android:layout_width="272dp"
         android:layout_height="34dp"
@@ -78,7 +81,7 @@
         android:layout_marginTop="6dp"
         android:layout_marginEnd="0dp" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner7"
         android:layout_width="272dp"
         android:layout_height="34dp"
@@ -87,7 +90,7 @@
         android:layout_marginTop="2dp"
         android:layout_marginEnd="0dp" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView9"
         android:layout_width="93dp"
         android:layout_height="wrap_content"
@@ -101,7 +104,7 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView10"
         android:layout_width="72dp"
         android:layout_height="wrap_content"
@@ -116,7 +119,7 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView11"
         android:layout_width="73dp"
         android:layout_height="wrap_content"
@@ -131,7 +134,7 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView12"
         android:layout_width="72dp"
         android:layout_height="wrap_content"
@@ -146,7 +149,7 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView13"
         android:layout_width="77dp"
         android:layout_height="wrap_content"
@@ -162,8 +165,7 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-
-    <TextView
+     <TextView
         android:id="@+id/textView15"
         android:layout_width="111dp"
         android:layout_height="wrap_content"
@@ -178,7 +180,7 @@
         android:textSize="17sp"
         android:textStyle="bold" />
 
-    <Button
+     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -192,40 +194,42 @@
         android:textColor="@color/colorAccent"
         android:textStyle="bold" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner8"
         android:layout_width="281dp"
         android:layout_height="34dp"
         android:layout_alignTop="@id/textView10"
         android:layout_alignParentEnd="true" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner9"
         android:layout_width="281dp"
         android:layout_height="34dp"
         android:layout_alignTop="@+id/textView11"
         android:layout_alignParentEnd="true" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner10"
         android:layout_width="281dp"
         android:layout_height="34dp"
         android:layout_alignTop="@+id/textView12"
         android:layout_alignParentEnd="true" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner11"
         android:layout_width="281dp"
         android:layout_height="34dp"
         android:layout_alignTop="@+id/textView13"
         android:layout_alignParentEnd="true" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner12"
         android:layout_width="256dp"
         android:layout_height="34dp"
         android:layout_alignTop="@+id/textView15"
         android:layout_alignParentEnd="true" />
 
+    </RelativeLayout>
 
-</RelativeLayout>
+
+</ScrollView>

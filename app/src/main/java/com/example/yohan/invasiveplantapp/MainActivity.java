@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity  {
         start = findViewById(R.id.button);
         end = findViewById(R.id.button2);
         enter = findViewById(R.id.Enter);
-        enterclick();
+
 
 
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.day,android.R.layout.simple_spinner_item);
@@ -114,12 +114,13 @@ public class MainActivity extends AppCompatActivity  {
 
        weather = spinner4.getSelectedItem().toString();
 
-
+    String date = day+"/"+month+"/"+year;
+        enterclick(date,weather);
 
 
     }
 
-    public void enterclick(){
+    public void enterclick(String date1, String weather1){
         enter.setOnClickListener(
                 new View.OnClickListener() {
                     @Override

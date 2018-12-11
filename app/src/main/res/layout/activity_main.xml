@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPrimary">
 
-    <Spinner
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+     <Spinner
         android:id="@+id/spinner4"
         android:layout_width="273dp"
         android:layout_height="34dp"
@@ -14,7 +18,7 @@
         android:layout_marginTop="173dp"
         android:visibility="visible" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner3"
         android:layout_width="273dp"
         android:layout_height="34dp"
@@ -23,7 +27,7 @@
         android:layout_marginBottom="-160dp"
         android:visibility="visible" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView"
         android:layout_width="57dp"
         android:layout_height="wrap_content"
@@ -36,7 +40,7 @@
         android:textColor="@color/colorAccent"
         android:textSize="17sp" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner"
         android:layout_width="273dp"
         android:layout_height="34dp"
@@ -44,7 +48,7 @@
         android:layout_alignParentEnd="true"
         android:visibility="visible" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,14 +62,14 @@
         android:textSize="17sp"
         tools:text="Weather" />
 
-    <Spinner
+     <Spinner
         android:id="@+id/spinner5"
         android:layout_width="273dp"
         android:layout_height="34dp"
         android:layout_alignTop="@+id/textView2"
         android:layout_alignParentEnd="true" />
 
-    <TextView
+     <TextView
         android:id="@+id/textView3"
         android:layout_width="120dp"
         android:layout_height="47dp"
@@ -79,7 +83,7 @@
         android:textSize="17sp"
         tools:text="Sampling Trail" />
 
-    <EditText
+     <EditText
         android:id="@+id/editText2"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
@@ -90,7 +94,7 @@
         android:textColor="@color/colorAccent"
         android:autofillHints="" tools:targetApi="o"/>
 
-    <TextView
+     <TextView
         android:id="@+id/textView4"
         android:layout_width="230dp"
         android:layout_height="wrap_content"
@@ -105,7 +109,7 @@
         android:textStyle="bold" />
 
 
-    <TextView
+     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -118,7 +122,7 @@
         android:textColor="@color/colorAccent"
         android:textSize="17sp" />
 
-    <Button
+     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -132,7 +136,7 @@
         android:textColor="@android:color/background_dark"
         android:textStyle="bold" />
 
-    <EditText
+     <EditText
         android:id="@+id/editText"
         android:layout_width="117dp"
         android:layout_height="wrap_content"
@@ -143,7 +147,7 @@
         android:textColor="@color/colorAccent"
         android:autofillHints="" tools:targetApi="o"/>
 
-    <EditText
+     <EditText
         android:id="@+id/editText3"
         android:layout_width="117dp"
         android:layout_height="wrap_content"
@@ -154,7 +158,7 @@
         android:textColor="@color/colorAccent"
         android:autofillHints="" tools:targetApi="o"/>
 
-    <Button
+     <Button
         android:id="@+id/button2"
         android:layout_width="109dp"
         android:layout_height="wrap_content"
@@ -168,7 +172,7 @@
         android:textStyle="bold" />
 
 
-    <Button
+     <Button
         android:id="@+id/Enter"
         android:layout_width="179dp"
         android:layout_height="wrap_content"
@@ -183,5 +187,6 @@
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         android:textStyle="bold" />
+    </RelativeLayout>
 
-</RelativeLayout>
+</ScrollView>
