@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">InvasivePlantApp</string>
+    <string name="invasive_plant">Invasive Plant</string>
+    <string name="data_collection">Data Collection</string>
+    <string name="details">Details</string>
+    <string name="date">Date</string>
+    <string name="weather">Weather</string>
+    <string name="gps">GPS</string>
+    <string name="enter">Enter</string>
+    <string name="start_point">Start Point</string>
+    <string name="sampling_trail">Sampling Trail</string>
+    <string name="invasive_plant">Invasive Plant</string>
+    <string name="end_point">End Point</string>
     <string-array name="day">
         <item>1</item>
         <item>2</item>
